@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/friend circle/index",
+    "pages/collect/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/notepad/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText":"xiyanghong",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+     {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/shouye.png",
+      "selectedIconPath": "icon/shouye1.png"
+     },
+     {
+      "pagePath": "pages/friend circle/index",
+      "text": "社区",
+      "iconPath": "icon/pengyouquan_1.png",
+      "selectedIconPath": "icon/pengyouquan.png"
+     },
+     {
+      "pagePath": "pages/notepad/index",
+      "text": "记事本",
+      "iconPath": "icon/notepad.png",
+      "selectedIconPath": "icon/notepad_1.png"
+     },
+     {
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "icon/wode_1.png",
+      "selectedIconPath": "icon/wode.png"
+     }
+    ],
+    "backgroundColor": "0094aa",
+    "selectedColor": "800000"
+  },
+  "sitemapLocation": "sitemap.json"
+}
